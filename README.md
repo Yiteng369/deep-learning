@@ -55,9 +55,6 @@ To test whether knowledge learned from one station (source) can help predict CO�
 - **Transfer Setting**:  
   Train an LSTM model using all training data from a source station, then test on a different target station.
 
-- **Evaluation**:  
-  Generate a 14×14 heatmap of MSEs, where each row is a target and each column a source.
-
 - **Input**:  
   30-day sequences from source → test on 30-day sequences from target.
 
